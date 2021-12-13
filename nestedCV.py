@@ -85,18 +85,22 @@ def nestedcv(pipeline,param_grid, X, Y):
 
 
 '''
-Sample Usage: Let X be the 2D dataframe with multiple features as columns and Y be the outcome column dataframe.
-
-from sklearn.pipeline import make_pipeline
-from sklearn.linear_model import LogisticRegression
-
-# Pipeline created using Logistic Regression and MinMaxScaler
-pipeline = make_pipeline(MinMaxScaler(),LogisticRegression(max_iter=10000))
-
-param_grid = {'logisticregression__solver' : ['newton-cg', 'lbfgs', 'liblinear','sag','saga'],
-'logisticregression__penalty' : ['l2'],
-'logisticregression__C' : [300, 100, 30, 10, 3, 1.0, 0.3, 0.1, 0.03, 0.01]} 
-
-lg = nestedcv(pipeline,param_grid,X,Y)
-
+Sample Usage for Logistic Regression: Let X be the 2D dataframe with multiple features as columns and Y be the outcome column dataframe.
 '''
+
+# from sklearn.pipeline import make_pipeline
+# from sklearn.linear_model import LogisticRegression
+
+# def main():
+#     # Pipeline created using Logistic Regression and MinMaxScaler
+#     pipeline = make_pipeline(MinMaxScaler(), LogisticRegression(max_iter=10000))
+
+#     param_grid = {'logisticregression__solver' : ['newton-cg', 'lbfgs', 'liblinear','sag','saga'],
+#     'logisticregression__penalty' : ['l2'],
+#     'logisticregression__C' : [300, 100, 30, 10, 3, 1.0, 0.3, 0.1, 0.03, 0.01]} 
+
+#     lg = nestedcv(pipeline,param_grid, X, Y)
+#     print(*lg)
+
+# if __name__=='__main__':
+#     main()
