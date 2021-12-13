@@ -8,13 +8,7 @@ Journal: Frontiers in Cellular and Infection Microbiology, section Clinical Micr
 
 Article type: Original Research
 
-Authors: Rajesh Pandey, Shikha Bhat, Anuradha Pandey, Akshay Kanakan, Ranjeet Maurya, Janani Srinivasa Vasudevan, Priti Devi, Partha Chattopadhyay, Shimpa Sharma, 
-
-Rajesh J Khyalappa, Meghnad Joshi
-
-Manuscript ID: 783961
-
-Edited by: Hardeep Singh Tuli
+Authors: Rajesh Pandey, Shikha Bhat, Anuradha Pandey, Akshay Kanakan, Ranjeet Maurya, Janani Srinivasa Vasudevan, Priti Devi, Partha Chattopadhyay, Shimpa Sharma, Rajesh J Khyalappa, Meghnad Joshi
 
 This code is published under the BSD3-Clause License.
 
