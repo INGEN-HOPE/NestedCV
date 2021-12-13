@@ -36,7 +36,7 @@ from scipy import interp
 
 
 '''
-Template code demonstrating the Nested CV Pipeline as described in manuscript. For usage, see .ipynb
+Code demonstrating the Nested CV Pipeline. For usage in manuscript, see manuscript_code.ipynb
 '''
 
 #Nested CV Pipeline
